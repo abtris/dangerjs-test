@@ -17,7 +17,6 @@ var messageConventionValid = danger.git.commits.reduce(function (acc, value) {
   load(CONFIG)
     .then(opts => lint(value.message, opts.rules, opts.parserPreset ? { parserOpts: opts.parserPreset.parserOpts } : {}))
     .then(report => {
-      console.log(report);
       return report.valid && acc;
     });
   ;
