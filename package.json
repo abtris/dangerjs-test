@@ -1,0 +1,14 @@
+{
+  "name": "dangerjs-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ladislav Prskavec <ladislav@prskavec.net> (http://www.prskavec.net)",
+  "license": "MIT",
+  "dependencies": {
+    "danger": "^3.4.7"
+  }
+}
